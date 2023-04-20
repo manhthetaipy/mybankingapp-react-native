@@ -1,11 +1,11 @@
-import { SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { SafeAreaView, ScrollView, StyleSheet, Text, View } from "react-native";
 // import Translate from "./assets/screens/Translate";
-import Performed from "./assets/screens/Performed";
+import Completed from "./assets/screens/Completed";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.main}>
-      <Performed />
+      <Completed />
     </SafeAreaView>
   );
 }
